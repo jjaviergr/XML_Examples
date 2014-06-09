@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+   <!ELEMENT liga (partidos*)>
+   <!ELEMENT partidos (partido)>   
+   <!ELEMENT partido EMPTY>
+   <!ATTLIST partido equipo_local CDATA  #REQUIRED >
+   <!ATTLIST partido equipo_visitante CDATA  #REQUIRED>
+   <!ATTLIST partido goles_local CDATA  #REQUIRED >
+   <!ATTLIST partido goles_visitante CDATA  #REQUIRED>
+]>
+<liga>
+    <partidos>
+        <partido equipo_local="Real Madrid" equipo_visitante="Barcelona" 
+                 goles_local="20" 
+                 goles_visitante="-1" />        
+    </partidos>
+    <partidos>
+        <partido equipo_local="Atletico Madrid" equipo_visitante="Español" 
+                 goles_local="5" 
+                 goles_visitante="1" />        
+    </partidos>
+    <partidos>
+        <partido equipo_local="Otro" equipo_visitante="Otro no de Madrid" 
+                 goles_local="30" 
+                 goles_visitante="1" />        
+    </partidos>
+</liga>
+
+
+

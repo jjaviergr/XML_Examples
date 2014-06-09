@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga[
+   <!ELEMENT liga (partidos?)>
+   <!ELEMENT partidos (partido+)>
+   <!ELEMENT partido (equipo_local?,equipo_visitante?,goles_equipo_local?,goles_equipo_visitante?)>
+   <!ELEMENT equipo_local (#PCDATA)>
+   <!ELEMENT equipo_visitante (#PCDATA)>
+   <!ELEMENT goles_equipo_local (#PCDATA)>
+   <!ELEMENT goles_equipo_visitante (#PCDATA)>
+]>
+<liga>
+    <partidos>
+        <partido>
+           <equipo_local>Real Madrid</equipo_local>
+           <equipo_visitante>Barcelona</equipo_visitante>
+           <goles_equipo_local>20</goles_equipo_local>
+           <goles_equipo_visitante>-5</goles_equipo_visitante>
+        </partido>
+        <partido>
+           <equipo_local>Atl Madrid</equipo_local>
+           <equipo_visitante>Español</equipo_visitante>
+           <goles_equipo_local>20</goles_equipo_local>
+           <goles_equipo_visitante>-5</goles_equipo_visitante>
+        </partido>
+        <partido>
+           <equipo_local>Otro</equipo_local>
+           <equipo_visitante>Otro no de Madrid</equipo_visitante>
+           <goles_equipo_local>20</goles_equipo_local>
+           <goles_equipo_visitante>-5</goles_equipo_visitante>
+        </partido>
+    </partidos>
+</liga>
+
